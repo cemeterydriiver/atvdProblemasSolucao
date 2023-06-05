@@ -4,7 +4,7 @@
 **Scripts para a atividade proposta pelo professor [@daniloamorim](https://github.com/daniloamorim) em sala de aula na qual, criamos problemas que podem ser resolvidos com os conteúdos aprendidos em java script, em seguida, o grupo sorteado terá que resolver nossos problemas também utilizando java script.**
 
 # Nossos problemas e soluções
-> Problemas e soluções criados pelo nosso grupo, os problemas foram enviados para o grupo da Isadora Palú.
+> Problemas e soluções criados pelo nosso grupo, os problemas foram enviados para o grupo da [Isadora Palú](https://github.com/isapallu).
 > Os scripts se encontram na pasta `nossosProblemasSolucoes`
 
 ## ↪ Primeiro problema:
@@ -137,7 +137,7 @@ const produtos = [
   ```
   
  # Problemas e soluções propostos
-> Aqui se encontramos problemas propostos pelo grupo do Davi Medeiros, junto com as soluções criadas pela minha equipe
+> Aqui se encontramos problemas propostos pelo grupo do [Davi Medeiros](https://github.com/YDavizzz), junto com as soluções criadas pela minha equipe
 > Os scripts se encontram na pasta `solucoesProblemasPropostos`
 
 ## ↪ Primeiro problema:
