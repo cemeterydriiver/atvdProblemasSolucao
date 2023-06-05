@@ -3,6 +3,10 @@
 
 **Scripts para a atividade proposta pelo professor [@daniloamorim](https://github.com/daniloamorim) em sala de aula na qual, criamos problemas que podem ser resolvidos com os conteúdos aprendidos em java script, em seguida, o grupo sorteado terá que resolver nossos problemas também utilizando java script.**
 
+# Nossos problemas e soluções
+> Problemas e soluções criados pelo nosso grupo, os problemas foram enviados para o grupo da Isadora Palú.
+> Os scripts se encontram na pasta `nossosProblemasSolucoes`
+
 ## ↪ Primeiro problema:
 > Uma biblioteca ao cadastrar um novo livro preenche os seguintes parâmetros: título, autor, gênero e descrição. Frequentemente o bibliotecário responsável tem que procurar livros através de determinados gêneros, como por exemplo, ao procurar algum livro de ficção, o sistema deve mostrar todos os livros de ficção (junto aos parâmetros definidos anteriormente). Tal bibliotecário pediu sua ajuda para fazer esse script que busca os livros cadastrados através do gênero, como você resolveria esse problema?
 
@@ -131,4 +135,85 @@ const produtos = [
   
   console.log(valorComDesconto);
   ```
+  
+ # Problemas e soluções propostos
+> Aqui se encontramos problemas propostos pelo grupo do Davi Medeiros, junto com as soluções criadas pela minha equipe
+> Os scripts se encontram na pasta `solucoesProblemasPropostos`
 
+## ↪ Primeiro problema:
+> crie um sistema de sorteio usando uma array de nomes, e faça o computador escolher um desses nomes aleatoriamente (10 participantes no mínimo) (usando random Index)
+
+**Solução**
+
+```js
+var participantes = ["ash", "vitinho", "kaua", "felipe", "bernardo", "pedro", "daniel", "verona", "davi", "leo" ]
+
+function getRandomInt(min, max){
+    min = Math.ceil(min);
+    max = Math.ceil(max);
+    return Math.floor(Math.random()*(max - min + 1)) + min;
+}
+
+var random = getRandomInt(0, participantes.length -1);
+var nomeSorteado= participantes[random];
+
+console.log("O participante sorteado é: " + nomeSorteado);
+```
+## ↪ Segundo problema:
+> Crie um dado virtual que escolha aleatoriamente um número (pode ser um dado comum, um d20, você escolhe) (usando random Index).
+
+**Solução**
+```js
+function getRandomInt(min, max){
+    min = Math.ceil(min);
+    max = Math.ceil(max);
+    return Math.floor(Math.random()* (max - min + 1)) + min;
+}
+
+function rolarD20(){
+    return getRandomInt(1, 20);
+}
+
+var resultado = rolarD20();
+console.log("O número rolado no D20 foi: " +resultado)
+```
+
+## ↪ Terceiro problema:
+> crie um código hello world e que fale “que fase está o curintia”
+
+**Solução**
+```js
+console.log("que fase está o curintia")
+```
+## ↪ Quarto problema:
+> crie uma calculadora básica que use valores de dentro do código e que de o resultado no terminal
+
+**Solução**
+```js
+const n1 = 12 // primeiro número, na divisão é o dividendo
+const n2 = 5 // segundo número, na divisão é o divisor
+
+const soma = n1 + n2
+const subtracao = n1 - n2
+const multiplicacao = n1 * n2
+const divisao = n1/n2
+
+console.log("O resultado da operação é "+soma) // escolha a operação alterando a variável
+```
+## ↪ Quinto problema:
+> crie um sistema para calcular a média entre 3 números inseridos diretamente no código
+
+```js
+const nota1 = 9
+const nota2 = 3
+const nota3 = 7
+
+const calcularMedia = (nota1 + nota2 + nota3)/3
+
+console.log("A Média foi " + calcularMedia)
+```
+
+✍️**Autores:**
+- [Ash](https://github.com/cemeterydriiver)
+- [Vitor](https://github.com/vit1nN)
+- [Kaua](https://github.com/kauaeduardog)
